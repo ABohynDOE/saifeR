@@ -11,9 +11,6 @@
 #' @export
 #' @importFrom dplyr "filter"
 bail_out <- function(category=NULL){
-
-  excuses = read.csv("data/excuses.csv", stringsAsFactors = F)
-
   if (is.null(category)){
     subset <- excuses
   } else{
