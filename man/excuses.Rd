@@ -15,7 +15,9 @@ An object of the class \code{"data.frame"}
 data(excuses)
 }
 \description{
-List of excuses that Saif has already used or that he could use in any kind
-of situation, along with their category of use.
+Excuses
+}
+\details{
+All the excuses are of the form "I + {verb} + {complement}"
 }
 \keyword{datasets}
